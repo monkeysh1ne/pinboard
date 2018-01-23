@@ -7,6 +7,7 @@ bootstrap-sass
 simple_form
 paperclip
 
+acts_as_votable
 
 
 
