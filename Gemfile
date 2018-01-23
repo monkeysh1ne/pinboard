@@ -23,6 +23,8 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'masonry-rails', '~> 0.2.4'
 # gem 'jquery-turbolinks', '~> 2.1'
 gem 'acts_as_votable', '~> 0.11.1'
+gem 'mysql', '~> 2.9', '>= 2.9.1'
+gem 'mysql2', '~> 0.4.10'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -30,6 +32,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'sqlite3'
 end
 
 group :development do
