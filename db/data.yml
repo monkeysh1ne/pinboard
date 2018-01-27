@@ -1,0 +1,226 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2018-01-22 18:43:17.156053'
+    - '2018-01-22 18:43:17.156053'
+
+---
+pins:
+  columns:
+  - id
+  - title
+  - description
+  - created_at
+  - updated_at
+  - user_id
+  - image_file_name
+  - image_content_type
+  - image_file_size
+  - image_updated_at
+  records: 
+  - - 10
+    - Double the Cuteness
+    - Double the fun!
+    - '2018-01-23 06:27:27.713147'
+    - '2018-01-23 06:27:27.713147'
+    - 1
+    - fa44ce6b68cf694c80478b4fb44dea47.jpg
+    - image/jpeg
+    - 59986
+    - '2018-01-23 06:27:26.635987'
+  - - 14
+    - Cutest Lil Puppy
+    - Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ante ipsum
+      primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
+      neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis
+      lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt. Vestibulum
+      ac diam sit amet quam vehicula elementum sed sit amet dui.
+    - '2018-01-25 04:18:00.836625'
+    - '2018-01-25 04:18:00.836625'
+    - 1
+    - 505c6a8d9d5d1cfec7f28d6805112ac2--staffy-pups-dog-pictures.jpg
+    - image/jpeg
+    - 30877
+    - '2018-01-25 04:18:00.753015'
+  - - 15
+    - nmghmgjmhgjh
+    - nmmgjjkhjklbn,
+    - '2018-01-25 04:52:39.692348'
+    - '2018-01-25 04:52:39.692348'
+    - 1
+    - 2_english-staffies_gorgeous.jpeg
+    - image/jpeg
+    - 86446
+    - '2018-01-25 04:52:39.465846'
+  - - 17
+    - Golden boy
+    - Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit
+      aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
+      Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Proin
+      eget tortor risus.
+    - '2018-01-25 17:54:06.323125'
+    - '2018-01-25 17:54:06.323125'
+    - 1
+    - Cute-Dog-Golden-Retriever-Pictures.jpg
+    - image/jpeg
+    - 481763
+    - '2018-01-25 17:54:06.083106'
+  - - 18
+    - Squidgeface!!
+    - "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit
+      aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
+      Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Proin
+      eget tortor risus.\r\nQuisque velit nisi, pretium ut lacinia in, elementum id
+      enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin
+      molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis
+      at tellus. Proin eget tortor risus."
+    - '2018-01-25 17:54:55.285381'
+    - '2018-01-25 17:54:55.285381'
+    - 1
+    - e25ac78bdd81a605c83d9792004e0c86.jpg
+    - image/jpeg
+    - 14333
+    - '2018-01-25 17:54:55.224747'
+  - - 19
+    - English Staffy goodtimes
+    - Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit
+      aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin molestie malesuada.
+      Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Proin
+      eget tortor risus.Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec sollicitudin
+      molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis
+      at tellus. Proin eget tortor risus.
+    - '2018-01-25 18:14:08.391821'
+    - '2018-01-25 18:14:08.391821'
+    - 1
+    - English-Staffordshire-Bull-Terriers-left-to-right-Luna-Ice-and-Mig-Dogue-de-Bordeaux-background.jpg
+    - image/jpeg
+    - 246651
+    - '2018-01-25 18:14:08.116772'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - mcdoob@gmail.com
+    - "$2a$11$MPnmkYXNfwN/4lWXZrmGsuYQXhyMTKEW0XUHS7xhjIyBBmiAgFs.G"
+    - 4a40fcea719c3eb0abbcb2db259e0868011e964e08b9c8ffa72011480e2a7b80
+    - '2018-01-27 18:01:32.519749'
+    - 
+    - 25
+    - '2018-01-25 18:13:35.667422'
+    - '2018-01-25 17:38:58.264278'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2018-01-22 19:44:49.448992'
+    - '2018-01-27 18:01:32.521290'
+  - - 4
+    - dontbeapain@coy.com
+    - "$2a$11$zeYX37hhtNwf.flBt8HCm.mVQLg7pw0F4zsTeLFTbqQIMO5MM1pQO"
+    - 
+    - 
+    - 
+    - 1
+    - '2018-01-25 04:20:44.167177'
+    - '2018-01-25 04:20:44.167177'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2018-01-25 04:20:44.063879'
+    - '2018-01-25 04:20:44.168474'
+
+---
+votes:
+  columns:
+  - id
+  - votable_type
+  - votable_id
+  - voter_type
+  - voter_id
+  - vote_flag
+  - vote_scope
+  - vote_weight
+  - created_at
+  - updated_at
+  records: 
+  - - 5
+    - Pin
+    - 10
+    - User
+    - 1
+    - true
+    - 
+    - 1
+    - '2018-01-23 06:27:42.661399'
+    - '2018-01-23 06:27:42.661399'
+  - - 6
+    - Pin
+    - 11
+    - User
+    - 3
+    - true
+    - 
+    - 1
+    - '2018-01-23 21:52:58.155984'
+    - '2018-01-23 21:52:58.155984'
+  - - 7
+    - Pin
+    - 11
+    - User
+    - 1
+    - true
+    - 
+    - 1
+    - '2018-01-23 21:53:19.497447'
+    - '2018-01-23 21:53:19.497447'
+  - - 8
+    - Pin
+    - 14
+    - User
+    - 4
+    - true
+    - 
+    - 1
+    - '2018-01-25 04:20:54.020299'
+    - '2018-01-25 04:20:54.020299'
+  - - 9
+    - Pin
+    - 15
+    - User
+    - 1
+    - true
+    - 
+    - 1
+    - '2018-01-25 04:52:48.170875'
+    - '2018-01-25 04:52:48.170875'
+  - - 10
+    - Pin
+    - 18
+    - User
+    - 1
+    - true
+    - 
+    - 1
+    - '2018-01-25 17:55:24.952178'
+    - '2018-01-25 17:55:24.952178'
