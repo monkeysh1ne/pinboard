@@ -7,7 +7,7 @@ end
 
 
 gem 'rails', '~> 5.1.4'
-gem 'mysql2'
+# gem 'mysql2'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -26,6 +26,7 @@ gem 'acts_as_votable', '~> 0.11.1'
 gem 'yaml_db'
 
 group :development, :test do
+  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
