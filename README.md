@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Adapted and improved from original tutorial by MacKenzie Child titled [How to build a Pinterest clone in Rails 4] (https://youtu.be/abcnfFS_DS8)
 
-Things you may want to cover:
+Changes made:
 
-* Ruby version
+* Added Comments functionality
 
-* System dependencies
+* Made navigation responsive
 
-* Configuration
+* Replaced default modal delete popup with Bootstrapped version
 
-* Database creation
+## ToDo:
 
-* Database initialization
+* Add Bio's to dogs (eg., Sex, Date Avail, DOB..)
 
-* How to run the test suite
+* Add delete Comment function
 
-* Services (job queues, cache servers, search engines, etc.)
+* Add user name /email to Comments
 
-* Deployment instructions
-
-* ...
+* Add DateTime to Pin panel footer (eg., "Submitted by: user@user_email.com at 12:06pm NZST")
