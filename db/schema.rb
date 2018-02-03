@@ -10,9 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180123003235) do
+ActiveRecord::Schema.define(version: 20180202204236) do
 
-  create_table "pins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "comments", force: :cascade do |t|
+    t.string "commentable_type"
+    t.integer "commentable_id"
+    t.integer "user_id"
+    t.text "body"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "pins", force: :cascade do |t|
     t.string "title"
     t.text "description"
     t.datetime "created_at", null: false
@@ -25,7 +34,7 @@ ActiveRecord::Schema.define(version: 20180123003235) do
     t.index ["user_id"], name: "index_pins_on_user_id"
   end
 
-  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
@@ -42,7 +51,7 @@ ActiveRecord::Schema.define(version: 20180123003235) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  create_table "votes", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "votes", force: :cascade do |t|
     t.string "votable_type"
     t.integer "votable_id"
     t.string "voter_type"

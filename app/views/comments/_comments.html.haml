@@ -1,0 +1,5 @@
+#Comments
+	%h4 Comments..
+	= @pin.comments.each do |comment|   #- problem here
+		.well
+			= comment.body
